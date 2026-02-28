@@ -23,15 +23,16 @@
   </a>
 
 
+
   <a href="https://codecov.io/gh/lrstanley/bubblezone">
     <img title="Code Coverage" src="https://img.shields.io/codecov/c/github/lrstanley/bubblezone/master?style=flat-square">
   </a>
 
-  <a href="https://pkg.go.dev/github.com/lrstanley/bubblezone">
-    <img title="Go Documentation" src="https://pkg.go.dev/badge/github.com/lrstanley/bubblezone?style=flat-square">
+  <a href="https://pkg.go.dev/github.com/lrstanley/bubblezone/v2">
+    <img title="Go Documentation" src="https://pkg.go.dev/badge/github.com/lrstanley/bubblezone/v2?style=flat-square">
   </a>
-  <a href="https://goreportcard.com/report/github.com/lrstanley/bubblezone">
-    <img title="Go Report Card" src="https://goreportcard.com/badge/github.com/lrstanley/bubblezone?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/lrstanley/bubblezone/v2">
+    <img title="Go Report Card" src="https://goreportcard.com/badge/github.com/lrstanley/bubblezone/v2?style=flat-square">
   </a>
 </p>
 <p align="center">
@@ -69,6 +70,7 @@
     - [Only scan at the root model](#only-scan-at-the-root-model)
     - [Organic shapes](#organic-shapes)
   - [Support &amp; Assistance](#raising_hand_man-support--assistance)
+  - [Changes in v2](#rocket-changes-in-v2)
   - [Contributing](#handshake-contributing)
   - [License](#balance_scale-license)
 <!-- template:end:toc -->
