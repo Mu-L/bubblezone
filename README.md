@@ -69,8 +69,8 @@
     - [MaxHeight and MaxWidth](#maxheight-and-maxwidth)
     - [Only scan at the root model](#only-scan-at-the-root-model)
     - [Organic shapes](#organic-shapes)
-  - [Support &amp; Assistance](#raising_hand_man-support--assistance)
   - [Changes in v2](#rocket-changes-in-v2)
+  - [Support &amp; Assistance](#raising_hand_man-support--assistance)
   - [Contributing](#handshake-contributing)
   - [License](#balance_scale-license)
 <!-- template:end:toc -->
