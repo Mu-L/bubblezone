@@ -7,11 +7,11 @@ fetch:
 
 up:
 	go get -u ./... && go mod tidy
-	cd examples && go get -u ./... && go mod tidy
+	cd _examples/ && go get -u ./... && go mod tidy
 
 test:
-	go test -v ./...
-	cd examples && go test -v ./...
+	GORACE="exitcode=1 halt_on_error=1" go test -v -race -timeout 3m -count 3 -cpu 1,4 ./...
+	cd _examples/ && GORACE="exitcode=1 halt_on_error=1" go test -v -race -timeout 3m -count 3 -cpu 1,4 ./...
 
 fuzz:
 	go test -fuzz=FuzzScan -timeout=1m
